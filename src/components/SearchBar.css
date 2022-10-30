@@ -4,6 +4,7 @@
     height: 50%;
     position: relative;
     display: flex;
+    align-items: center;
 }
 
 .searchTerm {
@@ -11,7 +12,7 @@
     border: 3px solid lightskyblue;
     border-right: none;
     padding: 15px;
-    margin-top: 300px;
+    margin-top: 120px;
     height: 20px;
     border-radius: 5px 0 0 5px;
     outline: none;
@@ -32,10 +33,9 @@
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;
-    margin-top: 300px;
+    margin-top: 120px;
 }
 
-/*Resize the wrap to see the search bar change!*/
 .wrap{
     width: 30%;
     position: absolute;

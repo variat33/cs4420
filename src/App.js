@@ -11,7 +11,6 @@ function App() {
           <Title/>
           <SearchBar/>
       </div>
-
   );
 }
 

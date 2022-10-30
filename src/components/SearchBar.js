@@ -2,9 +2,8 @@ import './SearchBar.css';
 import React from "react";
 
 function sayHello() {
-    alert('RIP OFF!');
+    alert('YOU WISH IT WORKED!');
 }
-
 
 const SearchBar = () => (
     <div className="wrap">
@@ -13,9 +12,7 @@ const SearchBar = () => (
                     <button onClick={sayHello} type="submit" class="searchButton">Search </button>
             </div>
     </div>
-
-
-
 );
 
 export default SearchBar
+
